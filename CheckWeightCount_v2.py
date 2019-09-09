@@ -1,8 +1,6 @@
-import maya.cmds as cmds
-import maya.mel as mel
-import sys
-
-#testing GitHub
+from maya import maya.cmds as cmds
+from maya import maya.mel as mel
+from maya import sys
 
 # all Maya commands are converted to cmds when possible.
 # Maya commands that are in mel are only available in mel.
